@@ -1,0 +1,121 @@
+    .top-bar {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.gallery{
+    background-color:white;
+    color:black;
+}
+.one{
+    border-radius : 20px;
+    background-color:blue;
+    color :black;
+    padding:20px;
+    text-decoration :none;
+}
+.top-bar button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+  /* SUBMENU FIX */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* Hover smooth */
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Button styling */
+.btn-primary {
+    border-radius: 20px;
+}
+
+        .hero {
+            background: url('image/front.jpeg') no-repeat center/cover;
+            height:500px;
+         
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+} 
+
+
+
+        .hero h2 {
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+        }
+
+        section {
+            padding: 40px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .courses, .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        form input, form select, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .btn {
+            background: #0d6efd;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #084298;
+        }
+  

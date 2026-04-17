@@ -1,0 +1,26 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.photo-grid img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;    
+    border:solid;
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: 1fr; /* 1 image per row */
+    }
+     .photo-grid img {
+        width:100%;
+        height:100% 
+          border:solid;
+    }
+}
